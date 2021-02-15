@@ -1,6 +1,5 @@
 
 
-
 Regression Models: Mtcars data
 ========================================================
 title: "Shiny Application and Reproducible Pitch"
