@@ -5,7 +5,7 @@
 library(shiny)
 
 ui <- fluidPage(
-    titlePanel("Regression Model mtcarsset Mtcars"),
+    titlePanel("Regression Model with Mtcars data"),
     sidebarLayout(
         sidebarPanel(
             selectInput('outcome',label=h3('Outcome (Predictor):'), names(mtcars)),
