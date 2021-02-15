@@ -22,6 +22,7 @@ ui <- fluidPage(
                         tabPanel("Plot", plotOutput("plot")), # Plot
                         tabPanel("Model Summary", verbatimTextOutput("summary")), # Regression
                         tabPanel("Data", DT::dataTableOutput('tbl')) # mtcars set 
+                        
            )
         )
     ))
